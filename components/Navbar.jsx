@@ -1,9 +1,16 @@
 'use client';
 
+import { motiom } from 'framer-motion';
+
+import styles from '../styles';
+import { navVariants } from '../utils/motion';
+
 const Navbar = () => (
-  <nav>
+  <motion.nav
+    variants={navVariants}
+  >
     navbar
-  </nav>
+  </motion.nav>
 );
 
 export default Navbar;
