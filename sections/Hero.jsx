@@ -20,6 +20,14 @@ const Hero = () => (
         >
           Metaverse
         </motion.h1>
+        <motion.div
+          variants={textVariant(1.2)}
+          className="flex flex-row justify-center items-center"
+        >
+          <h1 className={styles.heroHeading}>
+            Ma
+          </h1>
+        </motion.div>
       </div>
     </motion.div>
   </section>
