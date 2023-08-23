@@ -18,7 +18,7 @@ const Explore = () => (
       viewport={{once: false, amount: 0.25}}
       className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
-
+      <TypingText title="| The World" textStyles="text-center" />
     </motion.div>
   </section>
 );
