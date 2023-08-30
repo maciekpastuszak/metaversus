@@ -23,15 +23,14 @@ const WhatsNew = () => (
     >
       <TypingText title="| What's new" />
       <TitleText title={<>What's new about Metaversus</>} />
-      {/* <div className="mt-[31px] flex flex-col max-w-[370px] gap-[24px]">
-        {startingFeatures.map((feature, index) => (
-          <StartSteps
-            key={feature}
-            number={index + 1}
-            text={feature}
+      <div className="mt-[31px] flex flex-col max-w-[370px] gap-[24px]">
+        {newFeatures.map((feature, index) => (
+          <NewFeatures
+            key={feature.title}
+            {...feature}
           />
         ))}
-      </div> */}
+      </div>
     </motion.div>
     <motion.div
       variants={planetVariants('right')}
