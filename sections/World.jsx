@@ -23,7 +23,7 @@ const World = () => (
               world
             </>
           )}
-          textStyles="text-centr"
+          textStyles="text-center"
         />
     </motion.div>
   </section>
