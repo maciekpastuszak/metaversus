@@ -13,8 +13,14 @@ const Feedback = () => (
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
-      className={`${styles.innerWidth} mx-auto flex flex-col`}
+      className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-6`}
     >
+      <motion.div
+       variants={fadeIn('right', 'tween', 0.2, 1)}
+       className="flex-[0.5] lg:max-w-[370px] flex justify-end flex-col gradient-05 sm:p-8 p-4 rounded-[32px] border-[1px] border-[#6A6AA6] relative"
+      >
+
+      </motion.div>
     </motion.div>
   </section>
 );
