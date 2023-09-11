@@ -42,7 +42,15 @@ const Feedback = () => (
           alt="planet-09"
           className="w-full lg:h-[610px] h-auto min-h-[210px] object-cover rounded-[40px]"
         />
-
+          <motion.div
+          variants={zoomIn(0.4, 1)}
+          className="lg:block hidden absolute -left-[10%] top-[3%]"
+        >
+          <img
+            src="/stamp.png"
+            alt="stamp"
+          />
+        </motion.div>
         </motion.div>
       </motion.div>
     </motion.div>
