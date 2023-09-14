@@ -21,12 +21,15 @@ const Footer = () => (
         <h4 className="font-bold md:text-[64px] text-[44px] text-white">
           Enter the Metaverse
         </h4>
-        <button type="button" className="flex items-center h-fit py-4 px-6 bg-[#2561B8] rounded-[32px] gap-[12px]">
+        <button type="button" className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]">
           <img
             src="/headset.svg"
             alt="headset"
             className="w-[24px] h-[24px] object-contain"
           />
+          <span className="font-normal text-[16px] text-white">
+            Enter Metaverse
+          </span>
         </button>
       </div>
     </div>
